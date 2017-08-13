@@ -12,7 +12,12 @@
 	<description>Demo project for Spring Boot</description>
 
 	<modules>
+        <module>common-model</module>
 		<module>config-server</module>
+        <module>eureka-server</module>
+        <module>hystrix-dashboard</module>
+        <module>stock-server</module>
+        <module>gateway-client</module>
 	</modules>
 
 
