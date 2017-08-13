@@ -19,6 +19,7 @@
         <module>stock-server</module>
         <module>gateway-client</module>
         <module>zipkin-server</module>
+        <module>yahoo-stock-server</module>
 	</modules>
 
 

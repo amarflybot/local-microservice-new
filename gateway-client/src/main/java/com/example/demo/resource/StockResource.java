@@ -21,7 +21,7 @@ import java.util.Collections;
  */
 @RestController
 @RequestMapping("/stocks")
-public class TestResource {
+public class StockResource {
 
     @Autowired
     private RestTemplate restTemplate;
