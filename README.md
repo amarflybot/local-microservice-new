@@ -10,6 +10,7 @@ Test Oauth Server
 -------------
 - Step1:
 http://localhost:9191/uaa/oauth/authorize?response_type=code&client_id=acme&redirect_uri=http://example.com
+
 Basic Auth: Mentioned as per Account Database
 
 - Step2:
