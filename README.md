@@ -1,4 +1,4 @@
-Welcome to Spring Cloud Services!
+Welcome to Spring Cloud Services with OAuth2!
 ===================
 
 <p>Rest if the servers are simple Spring Cloud service.</p>
