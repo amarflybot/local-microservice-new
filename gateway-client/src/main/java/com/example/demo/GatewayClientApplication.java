@@ -10,8 +10,8 @@ import org.springframework.cloud.sleuth.Sampler;
 import org.springframework.cloud.sleuth.sampler.AlwaysSampler;
 import org.springframework.cloud.stream.annotation.EnableBinding;
 import org.springframework.context.annotation.Bean;
-import org.springframework.http.client.SimpleClientHttpRequestFactory;
 import org.springframework.integration.annotation.IntegrationComponentScan;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 import org.springframework.web.client.RestTemplate;
 
 @SpringBootApplication
@@ -20,6 +20,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableCircuitBreaker
 @EnableBinding(StockChannels.class)
 @IntegrationComponentScan
+@EnableResourceServer
 public class GatewayClientApplication {
 
 	public static void main(String[] args) {

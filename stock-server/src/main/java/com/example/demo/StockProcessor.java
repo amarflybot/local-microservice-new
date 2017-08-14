@@ -1,5 +1,6 @@
 package com.example.demo;
 
+
 import com.example.demo.model.Stock;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

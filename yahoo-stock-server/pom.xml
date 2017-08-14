@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>gateway-client</artifactId>
+	<artifactId>yahoo-stock-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>gateway-client</name>
+	<name>yahoo-stock-server</name>
 	<description>Demo project for Spring Boot</description>
 
 	<parent>
@@ -39,49 +39,24 @@
 			<artifactId>spring-cloud-starter-eureka</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-hystrix</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-oauth2</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-zuul</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-hateoas</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-zipkin</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-stream-kafka</artifactId>
-		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>common-model</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.yahoofinance-api/YahooFinanceAPI -->
 		<dependency>
 			<groupId>com.yahoofinance-api</groupId>
 			<artifactId>YahooFinanceAPI</artifactId>
 			<version>3.8.0</version>
 		</dependency>
-    </dependencies>
+
+	</dependencies>
 
 	<dependencyManagement>
 		<dependencies>

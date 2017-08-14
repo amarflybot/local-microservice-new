@@ -20,6 +20,7 @@
         <module>gateway-client</module>
         <module>zipkin-server</module>
         <module>yahoo-stock-server</module>
+		<module>oauth-server</module>
 	</modules>
 
 

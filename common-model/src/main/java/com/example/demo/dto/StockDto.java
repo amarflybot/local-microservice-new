@@ -7,6 +7,10 @@ public class StockDto {
 
     private String name;
 
+
+    public StockDto() {
+    }
+
     public StockDto(String name) {
         this.name = name;
     }
