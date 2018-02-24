@@ -21,6 +21,8 @@
         <module>zipkin-server</module>
         <module>yahoo-stock-server</module>
 		<module>oauth-server</module>
+		<module>admin-server</module>
+		<module>dashboard-server</module>
 	</modules>
 
 
