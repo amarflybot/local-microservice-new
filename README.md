@@ -50,3 +50,7 @@ Get code
     
 - Step6: 
     This is it!!
+
+- Spring Cloud Hystrix Server
+
+![Hystrix Dashboard](https://images.techhive.com/images/article/2015/05/hystrix-dashboard-fig6-100586598-large.idge.png)
