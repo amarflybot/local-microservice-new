@@ -5,6 +5,9 @@ Welcome to Spring Cloud Services with OAuth2!
 <p>The Zull Proxy Gateway is now oauth Protected</p>
 <p>The oauth-server is the authentication server</p>
 
+- Overaall Architecture
+![Architecture](https://i.stack.imgur.com/efX9T.png)
+
 
 Test Oauth Server
 -------------
@@ -54,3 +57,7 @@ Get code
 - Spring Cloud Hystrix Server
 
 ![Hystrix Dashboard](https://images.techhive.com/images/article/2015/05/hystrix-dashboard-fig6-100586598-large.idge.png)
+
+- Tracing Concept
+![Tracing](https://raw.githubusercontent.com/spring-cloud/spring-cloud-sleuth/1.1.x/docs/src/main/asciidoc/images/trace-id.png)
+
